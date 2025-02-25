@@ -8,7 +8,6 @@ This API, built with **Node.js** and **Express**, allows CRUD operations on mess
 
 - **Node.js & Express** for backend
 - **Jest** for testing
-- **Commander & Chalk** for CLI
 - **Docker** for containerization
 - **AWS EC2** for deployment
 - **AWS Route 53 & Namecheap** for domain management

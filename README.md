@@ -38,7 +38,7 @@ API available at `http://localhost:3000`.
 npm test
 ```
 
-Tests run locally and in **GitHub Actions** upon push or PR.
+Tests run locally and in **GitHub Actions** upon push.
 
 ---
 

@@ -87,36 +87,36 @@ This project runs in Docker on AWS EC2, with the domain managed through AWS Rout
 
 ## **API Endpoints**
 
-### **Base URL:** `http://www.messagesapi.com/messages`
+### **Base URL:** `https://www.messagesapi.com/messages`
 
 #### **1. GET /messages** – Retrieve all messages
 
 ```sh
-curl -X GET http://www.messagesapi.com/messages
+curl -X GET https://www.messagesapi.com/messages
 ```
 
 #### **2. GET /messages/\*\***:id\*\* – Retrieve a message by ID
 
 ```sh
-curl -X GET http://www.messagesapi.com/messages/<id>
+curl -X GET https://www.messagesapi.com/messages/<id>
 ```
 
 #### **3. POST /messages** – Create a message
 
 ```sh
-curl -X POST http://www.messagesapi.com/messages -H "Content-Type: application/json" -d '{"message": "hello"}'
+curl -X POST https://www.messagesapi.com/messages -H "Content-Type: application/json" -d '{"message": "hello"}'
 ```
 
 #### **4. PUT /messages/\*\***:id\*\* – Update a message
 
 ```sh
-curl -X PUT http://www.messagesapi.com/messages/<id> -H "Content-Type: application/json" -d '{"message": "updated"}'
+curl -X PUT https://www.messagesapi.com/messages/<id> -H "Content-Type: application/json" -d '{"message": "updated"}'
 ```
 
 #### **5. DELETE /messages/\*\***:id\*\* – Delete a message
 
 ```sh
-curl -X DELETE http://www.messagesapi.com/messages/<id>
+curl -X DELETE https://www.messagesapi.com/messages/<id>
 ```
 
 ---

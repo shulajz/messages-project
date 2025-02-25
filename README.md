@@ -24,11 +24,30 @@ cd messages-project
 npm install
 ```
 
-### **2. Run the Application**
+### **2. Run the API Locally**
+
+To start the API locally, run:
 
 ```sh
 npm start
 ```
+
+The API will be available at `http://localhost:3000`.
+
+You can test it using **Postman**, `curl`, or directly from the browser.
+
+#### **Example API Calls Locally**
+
+- **Get all messages:**
+  ```sh
+  curl -X GET http://localhost:3000/messages
+  ```
+- **Create a new message:**
+  ```sh
+  curl -X POST http://localhost:3000/messages -H "Content-Type: application/json" -d '{"message": "hello"}'
+  ```
+
+---
 
 API available at `http://localhost:3000`.
 

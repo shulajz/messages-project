@@ -49,8 +49,6 @@ You can test it using **Postman**, `curl`, or directly from the browser.
 
 ---
 
-API available at `http://localhost:3000`.
-
 ### **3. Run Tests**
 
 ```sh

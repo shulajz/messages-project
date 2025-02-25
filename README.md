@@ -2,7 +2,7 @@
 
 ## **Architecture**
 
-This API, built with **Node.js** and **Express**, allows CRUD operations on messages, storing them in an in-memory database. Each message is checked for palindrome status.
+This API, built with **Node.js** and **Express**, allows CRUD operations on messages, storing them in an in-memory database. Each message is evaluated to determine whether it is a palindrome.
 
 ### **Key Technologies**
 

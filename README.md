@@ -22,7 +22,7 @@ The system uses:
 
 ```bash
 git clone https://github.com/shulajz/messages-project.git
-cd messages-api
+cd messages-project
 ```
 
 ### 2. Install Dependencies

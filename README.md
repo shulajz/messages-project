@@ -5,6 +5,7 @@
 This project is a **Messages API** built with **Node.js** and **Express**. It allows users to perform CRUD operations (Create, Read, Update, Delete) on messages. Each message is evaluated to check if it's a palindrome, and this information is stored in a mock database (an in-memory array).
 
 The system uses:
+
 - **Node.js** for the backend.
 - **Express** for the web framework.
 - **uuid** for generating unique message IDs.
@@ -20,7 +21,7 @@ The system uses:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/messages-api.git
+git clone https://github.com/shulajz/messages-project.git
 cd messages-api
 ```
 
@@ -63,11 +64,14 @@ http://localhost:3000/messages
 ### Endpoints
 
 #### 1. **GET /messages**
+
 Retrieve all stored messages.
 
 **Response:**
+
 - **Status Code:** 200
 - **Response Body:**
+
 ```json
 [
   {
@@ -79,11 +83,14 @@ Retrieve all stored messages.
 ```
 
 #### 2. **GET /messages/:id**
+
 Retrieve a message by its ID.
 
 **Response:**
+
 - **Status Code:** 200
 - **Response Body:**
+
 ```json
 {
   "id": "1a2b3c4d",
@@ -93,9 +100,11 @@ Retrieve a message by its ID.
 ```
 
 #### 3. **POST /messages**
+
 Create a new message.
 
 **Request Body:**
+
 ```json
 {
   "message": "hello"
@@ -103,8 +112,10 @@ Create a new message.
 ```
 
 **Response:**
+
 - **Status Code:** 201
 - **Response Body:**
+
 ```json
 {
   "message": "Message added successfully",
@@ -117,9 +128,11 @@ Create a new message.
 ```
 
 #### 4. **PUT /messages/:id**
+
 Update an existing message.
 
 **Request Body:**
+
 ```json
 {
   "message": "madam"
@@ -127,8 +140,10 @@ Update an existing message.
 ```
 
 **Response:**
+
 - **Status Code:** 200
 - **Response Body:**
+
 ```json
 {
   "message": "Message updated successfully",
@@ -141,11 +156,14 @@ Update an existing message.
 ```
 
 #### 5. **DELETE /messages/:id**
+
 Delete a message by ID.
 
 **Response:**
+
 - **Status Code:** 200
 - **Response Body:**
+
 ```json
 {
   "message": "Message deleted successfully"
@@ -164,14 +182,3 @@ We use **GitHub Actions** to run tests automatically on every push or pull reque
 ### GitHub Actions Configuration
 
 Whenever you push code or open a pull request, the tests will run automatically. Check the **Actions** tab in your GitHub repository to view the results.
-
----
-
-## Contributing
-
-Feel free to fork the repository, open issues, and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License.
-

@@ -1,11 +1,9 @@
-const express = require("express");
+import express from "express";
+import messageRoutes from "./routes/messages.js";
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+app.use(express.json()); // Middleware to parse JSON
+app.use("/messages", messageRoutes);
 
-app.listen(3000, () => {
-  console.log("Server started on port 3000");
-});
+export default app;
